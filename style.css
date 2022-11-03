@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+
+	font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.container > h1{
+
+padding: 20px 0;
+
+}
+
+.cart{
+
+	display: flex;
+
+}*/
+
+h1{
+    padding : 20px 0;
+}
+.products{
+
+	flex: 0.75;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.pdt{
+
+	display: flex;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border: 5px solid silver;
+    margin-bottom: 20px;
+
+}
+
+
+.pdt > img{
+
+	width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+
+.pdt-info{
+
+	padding: 20px;
+    width: 100%;
+    position: relative;
+
+}
+
+.name, .price{
+
+	margin-bottom: 20px;
+
+}
+
+.delete{
+
+	position: absolute;
+    bottom: 150px;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.delete:hover{
+
+	background-color: white;
+    color: green;
+    font-weight: 600;
+    border: 1px solid green;
+
+}
+
+.pdt-quantity > input{
+
+	width: 40px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.fa{
+
+	margin-right: 5px;
+
+}
+
+.total-price{
+
+	flex: 0.25;
+    margin-left: 20px;
+    padding: 20px;
+    height: 66px;
+    border: 5px solid silver;
+    border-radius: 5px;
+
+}
+
+.total-price p{
+
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 20px;
+
+}
+
+
+
+img{
+    width: 5%;
+    height: 5%;
+}
